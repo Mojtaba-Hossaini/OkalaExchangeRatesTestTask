@@ -1,0 +1,6 @@
+@OkalaExchangeRatesTestTask.WebAPI_HostAddress = http://localhost:5150
+
+GET {{OkalaExchangeRatesTestTask.WebAPI_HostAddress}}/api/crypto/rates/BTC
+Accept: application/json
+
+###

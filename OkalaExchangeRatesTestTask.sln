@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OkalaExchangeRatesTestTask.Domain", "OkalaExchangeRatesTestTask.Domain\OkalaExchangeRatesTestTask.Domain.csproj", "{18FA60A0-A07A-467E-9FEF-1FAC0232E4BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OkalaExchangeRatesTestTask.Application", "OkalaExchangeRatesTestTask.Application\OkalaExchangeRatesTestTask.Application.csproj", "{243AD118-D85E-42AE-B1DE-015690BCF6FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OkalaExchangeRatesTestTask.WebAPI", "OkalaExchangeRatesTestTask.WebAPI\OkalaExchangeRatesTestTask.WebAPI.csproj", "{0F0237C1-B965-4F24-BA1B-2CB345E529F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkalaExchangeRatesTestTask.Tests", "OkalaExchangeRatesTestTask.Tests\OkalaExchangeRatesTestTask.Tests.csproj", "{5C795281-6C84-4776-9D3F-DDF438D216E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{87C399DC-1DC5-4DB8-B9AF-1C4A7A9E5C1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A941387F-3D8A-468A-BB16-55841F42D3FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18FA60A0-A07A-467E-9FEF-1FAC0232E4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FA60A0-A07A-467E-9FEF-1FAC0232E4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FA60A0-A07A-467E-9FEF-1FAC0232E4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FA60A0-A07A-467E-9FEF-1FAC0232E4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243AD118-D85E-42AE-B1DE-015690BCF6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243AD118-D85E-42AE-B1DE-015690BCF6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243AD118-D85E-42AE-B1DE-015690BCF6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243AD118-D85E-42AE-B1DE-015690BCF6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0237C1-B965-4F24-BA1B-2CB345E529F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0237C1-B965-4F24-BA1B-2CB345E529F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0237C1-B965-4F24-BA1B-2CB345E529F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0237C1-B965-4F24-BA1B-2CB345E529F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C795281-6C84-4776-9D3F-DDF438D216E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C795281-6C84-4776-9D3F-DDF438D216E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C795281-6C84-4776-9D3F-DDF438D216E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C795281-6C84-4776-9D3F-DDF438D216E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18FA60A0-A07A-467E-9FEF-1FAC0232E4BF} = {87C399DC-1DC5-4DB8-B9AF-1C4A7A9E5C1E}
+		{243AD118-D85E-42AE-B1DE-015690BCF6FC} = {87C399DC-1DC5-4DB8-B9AF-1C4A7A9E5C1E}
+		{0F0237C1-B965-4F24-BA1B-2CB345E529F5} = {87C399DC-1DC5-4DB8-B9AF-1C4A7A9E5C1E}
+		{5C795281-6C84-4776-9D3F-DDF438D216E8} = {A941387F-3D8A-468A-BB16-55841F42D3FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {643C1DCC-48A9-4E18-AFCE-37B3486BBFCC}
+	EndGlobalSection
+EndGlobal
